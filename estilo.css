@@ -1,0 +1,238 @@
+body {
+    background-color:#E5E5E5;
+}
+
+h1 , h2, h3, p , body{
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 64px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+h1 span {
+    font-weight: bold;
+}
+
+main {
+    padding: 40px 70px;
+    display: flex;
+}
+
+header {
+    background-color:white;
+    padding: 32px 64px;
+}
+
+.t60 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.subtitulo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+.periodo {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.dados {
+    display:inline-block;
+}
+
+.foto {
+    margin-bottom: -120px;
+    margin-right: 24px;
+    height: 300px;
+    width: 300px;
+    border:5px solid #5f9ea0;
+    border-radius: 50%;
+}
+
+.linha {
+    width: 80px;
+    border-top:2px solid;
+    margin-top: 6px;
+}
+
+.experiencias .linha {
+    border-color: #5f9ea0;
+}
+
+.formacao {
+    margin-top: 32px;
+}
+
+.formacao .linha {
+    border-color: #5f9ea0;
+}
+
+.formacao .img {
+    border-radius: 6px;
+}
+
+.coluna-menor {
+    margin-top: 60px;
+    width: 288px;
+}
+
+.coluna-menor li {
+    margin-top: 32px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.coluna-menor .img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.coluna-maior {
+    margin-left: 24px;
+}
+
+.conteudo {
+    display: inline-block;
+}
+
+ul, ol {
+    list-style-type:none ;
+    padding:0;
+}
+
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coluna-maior h2 {
+    margin-left: 12px;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+    margin: 12px;
+    border-radius: 8px;
+    width: 288px;
+    box-shadow: 5px 5px 8px 1px #a0a0a0;
+}
+
+.card2 {
+    background-color: white;
+    padding: 24px;
+    margin: 12px;
+    border-radius: 8px;
+    width: 388px;
+    box-shadow: 5px 5px 8px 1px #a0a0a0;
+}
+.card h3 { 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.proficiencias p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.proficiencias li {
+    margin-top: 32px;
+}
+
+.proficiencias li:first-child {
+    margin-top: 0px;
+}
+
+.progresso {
+    width: 100%;
+    display: flex;
+}
+
+.barra {
+    margin-top: 8px;
+    width: 20%;
+    border-top:6px solid;
+    color: #5f9ea0;
+}
+
+.incompleto {
+    opacity: 20%;
+}
+
+.contato {
+    display: flex;
+}
+
+.titulo2 {
+    margin-top: 40px;
+}
+
+.card2 p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top:10px;
+    opacity: 80%;
+    font-size: 14px;
+}
+
+.card2 .git {
+    margin-top: 8px;
+    margin-left: -15px;
+    height: 60%;
+    width: 100%;
+}
+
+.card2 .LinkedIn {
+    margin-top: 35px;
+    margin-left: 100px;
+    height: 52%;
+    width: 50%;
+}
+
+.contato a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background-color: #5f9ea0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    box-shadow: 2px 2px 8px 1px #a0a0a0;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 57.6px;
+    text-align: center;
+    color: white;
+    background-color: #5f9ea0;
+}
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
